@@ -1,0 +1,98 @@
+<!--2) Using Form Tags,
+2.2). Create a “registration form” with the following fields
+	a) Name (Text field)
+	b) Password (password field)
+	c) E-mail id (text field)
+	d) Phone number (text field)
+	e) Sex (radio button)
+	f) Date of birth (3 select boxes)
+	g) Languages known (check boxes – English, Telugu, Hindi, Tamil)
+	h) Address (text area)-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+	<center>
+	<form >
+		<table bgcolor="pink" cellspacing="10">
+        <tr>
+		 <td><th><label for="name">Name</label></th></td>
+		 <td><input type="text" name="name" ></td>
+	    </tr>
+
+
+	<tr>
+		<td><th><label for="password">password</label></th></td>
+		<td><input type="password" ></td>
+	 </tr>
+
+
+	 <tr>
+		<td><th><label for="email">E-mail</label></th></td>
+		<td><input type="text" ></td>
+	 </tr>
+
+
+	 <tr>
+		<td><th><label for="phnno">phone number</label></th></td>
+		<td><input type="text" ></td>
+	 </tr>
+	
+	<tr>
+		<td><th><label for="gender">Sex</label></th></td>
+		<td><input type="radio" name="gen" value="male" >male
+		<input type="radio" name="gen" value="female" >female</td>
+	</tr>
+
+
+	<!--<tr>
+		<td><th>Date of Birth</th></td>
+		<td>
+		<select name="day">
+		</select>
+		<select name="month">
+		</select>
+		<select name="year">
+		</select>
+        </td>
+	</tr>-->
+
+
+	<tr>
+		<td><th>Date of Birth</th></td>
+		<td><input type="date" id="birthday" name="birthday">
+        </td>
+	</tr>
+
+
+	<tr >
+		<td><th><label for="lan">Languages known</label></th></td>
+		<td><input type="checkbox" >English<br/>
+		<input type="checkbox" >Hindi<br/>
+		<input type="checkbox" >Telugu<br/>
+		<input type="checkbox" >Tamil
+	    </td>
+   </tr>
+
+
+	<tr>
+		<td><th><label for="address">Address</label></th></td>
+		<td>
+			<textarea rows="5" cols="20">Type address here</textarea>
+		</td>
+	</tr>
+
+
+	<tr>
+		<td><th><input type="submit"  value="submit" ></th></td>
+		<td><input type="reset" name="gen" value="Reset" ></td>
+
+	</tr>
+</table>
+</form>
+</center>
+
+</body>
+</html>

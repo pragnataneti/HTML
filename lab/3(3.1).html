@@ -1,0 +1,51 @@
+<!--3.1) Design a web page using CSS (Cascading Style Sheets) which includes the
+following:
+3.1.1) Use different font, styles: In the style definition you define how each selector should work (font, color etc). Then, in the body of your pages, you refer to these selectors to activate the styles-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<html>
+	<head>
+		<title>Applying styles using css</title>
+		<style>
+			p
+			{
+				text-align: center;
+				color: blue;
+				font-style: italic;
+			}
+			p.center, h1.center
+			{
+				text-align: center;
+				color:blue;
+				font-style: bold;
+			}
+
+			h1.large
+			{
+				font-size: 50px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<p>Aditya Engineering College</p>
+
+		<p id="id1">Web Technologies</p>
+
+		<p>Computer Science and Engineering</p>
+		<p>Aditya Engineering College</p>
+
+		<p class="center">Web Technologies</p>
+
+		<p>Computer Science and Engineering</p>
+
+		<h1 class="center large">III CSE B</h1>
+	</body>
+</html>
+
+</body>
+</html>
